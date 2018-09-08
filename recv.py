@@ -24,6 +24,7 @@ while i<3:
 #identifying unique elements from data
 u=set(x)
 for j in u:
+#counting and appending in dictionary	
 	z=x.count(j)
 	d.update({j:z})
 
